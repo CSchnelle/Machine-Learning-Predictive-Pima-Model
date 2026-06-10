@@ -1,29 +1,47 @@
-# Machine-Learning-Predictive-Pima-Model
+# Pima Diabetes Prediction Model
 
-#Predicting Diabetes Project
+A machine learning project that predicts the likelihood of diabetes onset 
+in Pima Indian patients with 70%+ accuracy, following the end-to-end ML 
+workflow from data preparation through model evaluation.
 
-#Solution Statement:
-"Use the Machine Learning Workflow to process and transform Pima Indian Diabetes data to create prediction model. 
-This model must predict which people are likely to develop diabetes with 70% or greater accuracy."
+## Overview
 
-This project follows the Understanding Machine Learning W/Python lesson plan by Jerry Kurata. 
+This project applies the Machine Learning Workflow to the Pima Indians 
+Diabetes dataset from the National Institute of Diabetes and Digestive 
+and Kidney Diseases (NIDDK). The workflow covers:
 
-This code contains documentation describing the entire Machine Learning Workflow:
-Solution Statement - Preparing Data - Algorithm Selection - Training the Model - Testing the Model
+- Data preparation and transformation
+- Algorithm selection
+- Model training
+- Model evaluation and testing
 
-This project uses data from the National Institute of Diabetes and Digestive and Kidney Diseases and the dataset used is Pima Indian Diabetes
-To download the dataset:
-https://data.world/data-society/pima-indians-diabetes-database
+## Dataset
 
-This code is written in Python using Jupyter Notebook with the following imported libraries: numpy, matplotlib, pandas, and scikitlearn.
+**Source:** National Institute of Diabetes and Digestive and Kidney Diseases  
+**Download:** [Pima Indians Diabetes Database](https://data.world/data-society/pima-indians-diabetes-database)
 
-https://scikit-learn.org/stable/
+## Dependencies
 
-https://pandas.pydata.org/
+| Library | Purpose |
+|---|---|
+| [scikit-learn](https://scikit-learn.org/stable/) | ML algorithms and model evaluation |
+| [pandas](https://pandas.pydata.org/) | Data manipulation and analysis |
+| [matplotlib](https://matplotlib.org/) | Data visualization |
+| [numpy](https://numpy.org/) | Numerical computing |
 
-https://matplotlib.org/
+## Repository Contents
 
-https://numpy.org/
+- `notebook.ipynb` — Jupyter Notebook with full documented ML workflow
+- `model.py` — Python source file
+- `pima-indians-diabetes.csv` — Dataset file
 
+## Usage
 
-The files included in this repo are the Jupyter Notebook format source code and the .py format. Also included is the Pima dataset file. 
+```bash
+pip install scikit-learn pandas matplotlib numpy
+jupyter notebook notebook.ipynb
+```
+
+## Results
+
+Target accuracy: **70% or greater**
